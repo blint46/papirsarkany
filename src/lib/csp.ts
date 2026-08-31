@@ -10,7 +10,7 @@ export const CSP_POLICIES = {
     "https://vitals.vercel-insights.com",
   ],
   IMG_SRC: ["'self'", "blob:", "data:", "https://cdn.sanity.io"],
-  FRAME_SRC: ["'self'", "https://cdn.foxpost.hu"],
+  FRAME_SRC: ["'self'", "https://cdn.foxpost.hu", "https://www.google.com"],
 } as const satisfies Record<string, readonly string[]>;
 
 export const NONCE_PROTECTED_PATHS: readonly string[] = ["/penztar"];
